@@ -1,0 +1,35 @@
+.shopping__container {
+    width: 1000px;
+    margin: auto;
+}
+
+.shopping {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.shopping__item {
+    display: flex;
+    border: 1px solid black;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+
+.lead {
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.shopping__amount {
+    font-size: 1.5rem;
+    border-radius: 50%;
+    border: 1px solid #00C5E8;
+    background: #00C5E8;
+    width: 25px;
+    text-align: center;
+}

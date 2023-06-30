@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito compra - hernan</title>
+    <link rel="stylesheet" href="./style/carrito.css">
+    <link rel="stylesheet" href="./style/compras.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container__fruits">
+            <h1 class="fruit-title">Uvas:🍇</h1>
+            <button class="fruit-button" data-fruta="Uva">Agregar</button>
+        </div>
+
+        <div class="container__fruits">
+            <h1 class="fruit-title">Pera:🍐</h1>
+            <button class="fruit-button" data-fruta="Pera">Agregar</button>
+        </div>
+
+        <div class="container__fruits">
+            <h1 class="fruit-title">Cerezas:🍒</h1>
+            <button class="fruit-button" data-fruta="Cerazas">Agregar</button>
+        </div>
+    </div>
+
+    <!-- Teamplate -->
+    <div class="shopping__container">
+        <ul class="shopping">
+        </ul>
+
+    </div>
+
+    <template class="template">
+        <li class="shopping__item">
+            <span class="lead"></span>
+            <span class="shopping__amount"></span>
+        </li>
+    </template>
+
+    <script src="carrito.js"></script>
+
+</body>
+</html>
